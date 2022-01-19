@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Database Form</title>
+    <script src="validate.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div >
+       
+        <form action="InsertSQL.php" method="post" onsubmit="return submitBtn()"><h1 >EMPLOYEE REGISTRATION FORM</h1>
+            <fieldset>
+                <legend><span class="number">1</span>Enter Your ID
+                    
+                </legend>
+                <input type="text" name="empId" id="empId" placeholder="*Employee ID" required maxlength="8">
+            </fieldset>
+
+            <fieldset>
+                <legend><span class="number">2</span>Full Name</legend>
+                <input type="text" name="fname" id="fname" placeholder="*First Name" required>
+                <input type="text" name="lname" id="lname" placeholder="*Last Name" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>
+                    <span class="number">3</span>Birth Details</legend>
+                    <input type="text" name="place" id="place" placeholder="*Birth Location" required><center>
+                Select Your Date of Birth:</center>
+                <input type="date" name="dob" id="dob" placeholder="* Date of Birth" max="2003-12-31" required>
+                
+            </fieldset>
+
+            <fieldset>
+                <legend>
+                    <span class="number">4</span>Contact Details</legend>
+                <input type="email" name="mail" id="mail" placeholder="*E-mail ID" required>
+                <input type="tel" name="phone" id="phone" placeholder="*Mobile Number" required maxlength="10"> <br>
+                <br>
+                <textarea name="address" id="address" cols="55" rows="7" placeholder="* Enter Your Address Here"
+                    required></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>
+                    <span class="number">5</span>Department Details</legend>
+                <input type="text" name="qualification" id="qualification" placeholder="*Qualification" required>
+                <input type="text" name="deptName" id="deptName" placeholder="*Department Name" required>
+                <input type="text" name="deptId" id="deptId" placeholder="*Department ID" required maxlength="6">
+                <input type="number" name="salary" id="salary" placeholder="*Salary" required>
+                <br><br>
+                <center>Date of Joining: </center><input type="date" name="doj" id="doj" max='2021-12-10'  placeholder="date" required>
+            </fieldset>
+
+            <input type="submit" value="SUBMIT" id="submit">
+        </form>
+
+        <a href="displaySQL.php" >
+            <button >DISPLAY RECORD</button>
+        </a>
+    </div>
+</body>
+
+</html>

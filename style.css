@@ -1,0 +1,140 @@
+form{
+    background: #f0f8fa;
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.9em;
+}
+
+.displaySQL{
+    background: #f0f8fa;
+    
+    
+   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+table{
+    font-size: 0.8em;
+    margin-bottom: 30px;
+}
+
+
+
+fieldset{
+    border: none;
+}
+
+legend{
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="date"],
+textarea
+{
+    font-family: Georgia, "Times New Roman", Times, serif;
+	background: rgba(255,255,255,.1);
+    border: none;
+	border-radius: 4px;
+    font-size: 15px;
+    padding: 10px;
+	background-color: #e8eeef;
+    color:#8a97a0;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus,
+textarea:focus{
+    background: #d2d9dd;
+}
+
+button,
+input[type="submit"]{
+    position: relative;
+	display: block;
+	padding: 19px 39px 18px 39px;
+	color: #FFF;
+	margin: 0 auto;
+	background: #1abc9c;
+	font-size: 18px;
+	text-align: center;
+	font-style: normal;
+	width: 100%;
+	border: 1px solid #16a085;
+	border-width: 1px 1px 3px;
+	margin-bottom: 10px;
+    text-decoration: dotted;
+    
+    
+}
+
+button, a{
+    max-width: 800px;
+    text-decoration: none;
+    
+}
+
+
+button:hover,
+input[type="submit"]:hover{
+    background: #109177;
+}
+
+
+center{
+    font-size: 1.1em;
+}
+
+.number{
+    background: #1abc9c;
+    color: #fff;
+    height: 30px;
+	width: 30px;
+    display: inline-block;
+	font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 15px 15px 15px 0px;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+}
+
+h1{
+    text-align: center; 
+    
+    
+    border: 7px solid #109177 ;
+    border-radius: 21px;
+    padding: 10px 0;
+    margin-bottom: 55px;
+    /* width: 500px; */
+    
+    
+    /* text-align: center; 
+    margin-bottom: 55px; 
+    border-style: solid; 
+    border-color: #1abc9c;
+     border-width: 6px; 
+     padding: 6px 0px; 
+     border-radius: 25px; 
+     width: 450px; 
+     justify-content: center; 
+     margin-left: 25px; */
+}
+
+
+
